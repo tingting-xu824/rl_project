@@ -32,8 +32,7 @@ Trained_eval/
 │   ├── logs/                  # TensorBoard logs
 │   ├── models/                # Trained models
 │   └── figures/               # Generated plots
-├── training_records/          # Training notes and records
-└── snapshots/                 # Additional visualization outputs
+└── training_records/          # Training notes and records
 ```
 
 ## Installation
