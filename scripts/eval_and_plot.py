@@ -91,8 +91,8 @@ def main():
                     help="一个或多个模型路径（.zip）")
     ap.add_argument("--labels", nargs="+", help="与 models 对应的曲线名称")
     ap.add_argument("--episodes", type=int, default=1000)
-    ap.add_argument("--csv_dir", default="./logs", help="CSV 输出目录")
-    ap.add_argument("--out_png", default="./logs/walker2d_returns.png")
+    ap.add_argument("--csv_dir", default="outputs/logs", help="CSV 输出目录")
+    ap.add_argument("--out_png", default="outputs/figures/walker2d_returns.png")
     ap.add_argument("--smooth", type=int, default=25, help="移动平均窗口；1=关闭")
     args = ap.parse_args()
 

@@ -8,3 +8,22 @@ env/
 .venv*/
 venv/
 env/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.Python
+
+# 环境
+.venv/
+venv/
+
+# 项目输出
+outputs/logs/
+outputs/models/*.zip
+.DS_Store
+
+# IDE
+.vscode/
+.idea/

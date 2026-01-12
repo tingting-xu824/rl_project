@@ -11,6 +11,7 @@ except Exception:
         except Exception:
             pass
 # -------------------------------------------------------------------------------
+from stable_baselines3 import SAC
 
 import gymnasium as gym
 import numpy as np

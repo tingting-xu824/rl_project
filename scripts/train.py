@@ -9,8 +9,8 @@ from stable_baselines3 import SAC
 from stable_baselines3.common.env_util import make_vec_env
 
 # 导入我们自定义的回调和包装器
-from common import ResetLoggerCallback
-from cost_wrapper import CostPunishWrapper
+from src.common import ResetLoggerCallback
+from src.cost_wrapper import CostPunishWrapper
 
 # --- 实验三所需的 SB3 内部组件 ---
 from stable_baselines3.common.buffers import ReplayBuffer
@@ -357,7 +357,7 @@ def main():
     parser.add_argument(
         "--log_dir", 
         type=str, 
-        default="./logs/",
+        default="outputs/logs",
         help="TensorBoard 日志的保存目录"
     )
     parser.add_argument(

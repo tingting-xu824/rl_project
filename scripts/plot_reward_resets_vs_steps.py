@@ -100,7 +100,7 @@ def main():
                     help="每个模型最多运行多少步（steps）")
     ap.add_argument("--smooth", type=int, default=200,
                     help="reward 移动平均窗口（step）")
-    ap.add_argument("--out_png", type=str, default="./reward_resets_vs_steps.png",
+    ap.add_argument("--out_png", type=str, default="outputs/figures/reward_resets_vs_steps.png",
                     help="输出图片文件")
     args = ap.parse_args()
 

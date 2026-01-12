@@ -108,7 +108,7 @@ def parse_args():
     p.add_argument("--steps", type=int, default=200, help="最多运行多少步")
     p.add_argument("--shot_steps", type=int, nargs=2, default=[50, 150],
                    help="两张图的抓取步数，例如: --shot_steps 50 150")
-    p.add_argument("--out", type=str, nargs=2, default=["shots1.png", "shots2.png"],
+    p.add_argument("--out", type=str, nargs=2, default=["outputs/figures/shots1.png", "outputs/figures/shots2.png"],
                    help="两张图的输出文件名，例如: --out shots1.png shots2.png")
     p.add_argument("--seed", type=int, default=42, help="随机种子")
     p.add_argument("--sleep", type=float, default=0.0,

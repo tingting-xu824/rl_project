@@ -14,7 +14,7 @@ std_return = np.array([ 936.95,  344.38,  304.90])
 expensive_resets = np.array([0.88, 0.15, 0.05])   # 摔倒/回合
 timelimit_resets = np.array([0.12, 0.85, 0.95])   # 1000步被截断/回合
 
-out_dir = "./logs"
+out_dir = "outputs/figures"
 os.makedirs(out_dir, exist_ok=True)
 
 # 1) 平均回报（带标准差）
@@ -48,7 +48,7 @@ plt.tight_layout()
 plt.savefig(os.path.join(out_dir, "bar_timelimit_resets.png"), dpi=200)
 plt.close()
 
-print("Done. Saved to ./logs/:")
+print("Done. Saved to outputs/figures/:")
 print(" - bar_avg_return.png")
 print(" - bar_expensive_resets.png")
 print(" - bar_timelimit_resets.png")
