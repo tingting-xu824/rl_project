@@ -1,0 +1,6 @@
+# Python venvs
+.venv/
+venv/
+env/
+.venv-*/
+ 
