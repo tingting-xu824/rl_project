@@ -363,7 +363,7 @@ def main():
     parser.add_argument(
         "--save_path", 
         type=str, 
-        default="./models/walker2d_sac",
+        default="outputs/models/walker2d_sac",
         help="模型保存的基本路径 (会自动添加 _expN.zip)"
     )
     
